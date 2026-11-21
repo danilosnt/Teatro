@@ -1,8 +1,2 @@
-// Baixa automaticamente o JDK pedido pela toolchain (Java 22) quando ele não está instalado.
-// A primeira execução precisa de internet; depois o JDK fica guardado em ~/.gradle/jdks.
-plugins {
-    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
-}
-
 rootProject.name = 'theatrical-plays'
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="theatricalplays.StatementPrinterTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-15T20:48:29.283Z" hostname="NOTEBOOK-DE-RAN" time="0.442">
+  <properties/>
+  <testcase name="exampleStatement()" classname="theatricalplays.StatementPrinterTests" time="0.42"/>
+  <testcase name="statementWithNewPlayTypes()" classname="theatricalplays.StatementPrinterTests" time="0.017"/>
+  <testcase name="exampleHtmlStatement()" classname="theatricalplays.StatementPrinterTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

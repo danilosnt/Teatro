@@ -1,14 +1,19 @@
 plugins {
     id 'java'
+    id 'application'
     id 'info.solidsoft.pitest' version '1.19.0-rc.2'
 }
 
 group = 'kata'
 version = '1.0-SNAPSHOT'
 
+application {
+    mainClass = 'theatricalplays.Main'
+}
+
 java {
     toolchain {
-        it.languageVersion = JavaLanguageVersion.of(22)
+        it.languageVersion = JavaLanguageVersion.of(21)
     }
 }
 
