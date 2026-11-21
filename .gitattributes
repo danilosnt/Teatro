@@ -1,0 +1,16 @@
+# Guarda os arquivos de texto com LF no repositório, seja qual for o sistema de cada membro.
+* text=auto
+
+# O script do Gradle para macOS e Linux precisa de LF para rodar.
+gradlew text eol=lf
+*.sh text eol=lf
+
+# Scripts do Windows usam CRLF.
+*.bat text eol=crlf
+
+# Arquivos binários: o Git não deve mexer nos finais de linha.
+*.jar binary
+*.class binary
+*.png binary
+*.pdf binary
+*.docx binary

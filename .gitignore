@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+
+# Saída de compilação das IDEs (VS Code, Eclipse, IntelliJ)
+bin/
+out/
+.idea/
+*.iml
+.vscode/
+
+# macOS
+.DS_Store
+
+# ApprovalTests: arquivos criados quando um teste de aprovação falha
+*.received.*
+
+# Saída gerada por ./gradlew run (classe Main)
+fatura.html
