@@ -238,9 +238,8 @@ O teste de aprovação já existia no legado e foi a rede de segurança da refat
 
 ## Equipe
 
-- Danilo Santos
-- Raniel Lopes
-<!-- Acrescente aqui os demais integrantes do grupo. -->
+- Danilo Santos do Carmo
+- Raniel Lopes de Matos Santos
 
 ## Referências
 
